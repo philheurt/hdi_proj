@@ -29,6 +29,22 @@ nav {
 	display: table;
 }
 
+h1 {
+	color: #8C9BAD;
+	text-align: center;
+}
+
+h2 {
+	color: #8C9BAD;
+	text-align: center;
+  font-size: 1.5rem;
+}
+
+p {
+	text-align: center;
+  font-size: 1rem;
+}
+
 .rounded-circle {
   cursor: pointer;
 }

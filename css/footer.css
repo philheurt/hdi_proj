@@ -2,6 +2,7 @@
 
 footer {
     background: #546A8B !important;
+    height: 100px;
 }
 
 footer .section-title {
@@ -11,7 +12,7 @@ footer .section-title {
     text-transform: uppercase;
 }
 #footer {
-    /*background: #007b5e !important;*/
+
 }
 #footer h5{
 	  padding-left: 10px;
