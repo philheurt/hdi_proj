@@ -83,7 +83,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <div class="hvr-grow">
-                <img class="rounded-circle" src="data/image/data_collection/digital_content.png" alt="Digital Content" width="150" height="150">
+                <img class="rounded-circle md-trigger" src="data/image/data_collection/digital_content.png" alt="Digital Content" width="150" height="150" data-modal="digital_content">
               </div>
               <h2>Digital Content</h2>
             </div><!-- /.col-lg-4 -->
@@ -104,7 +104,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <div class="hvr-grow">
-                <img class="rounded-circle" src="data/image/data_collection/TPI1.png" alt="Generic placeholder image" width="150" height="150">
+                <img class="rounded-circle md-trigger" src="data/image/data_collection/TPI1.png" alt="Generic placeholder image" width="150" height="150" data-modal="third_party_input">
               </div>
               <h2>Third Party</h2>
             </div><!-- /.col-lg-4 -->
@@ -113,13 +113,13 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="hvr-grow">
-                <img class="rounded-circle" src="data/image/data_collection/financial.png" alt="Financial Information Icon" width="150" height="150">
+                <img class="rounded-circle md-trigger" src="data/image/data_collection/financial.png" alt="Financial Information Icon" width="150" height="150" data-modal="financial_info">
               </div>
               <h2>Financial Information</h2>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <div class="hvr-grow">
-                <img class="rounded-circle" src="data/image/data_collection/feedback.png" alt="Feedback Icon" width="150" height="150">
+                <img class="rounded-circle md-trigger" src="data/image/data_collection/feedback.png" alt="Feedback Icon" width="150" height="150" data-modal="feedback">
               </div>
               <h2>Feedback</h2>
             </div><!-- /.col-lg-4 -->
@@ -332,16 +332,64 @@
         </div>
       </div>
 
-      <div class="md-modal md-effect-1" id="cookies">
+      <div class="md-modal md-effect-1" id="user_content">
         <div class="md-content">
-          <h3>Cookies</h3>
+          <h3>User Content</h3>
           <div>
             <p>
-              Like most online services and mobile applications, we may use cookies and other technologies, such as web beacons, web storage, and unique advertising identifiers, to collect information about your activity, browser, and device.
-              <br>We may also use these technologies to collect information when you interact with services we offer through one of our partners, such as advertising and commerce features.
-              Most web browsers are set to accept cookies by default.
-              <br>If you prefer, you can usually remove or reject browser cookies through the settings on your browser or device.
-              Keep in mind, though, that removing or rejecting cookies could affect the availability and functionality of our services.
+              We will collect whatever information you send through our services, such as Snaps and Chats to your friends.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="digital_content">
+        <div class="md-content">
+          <h3>Digital Content</h3>
+          <div>
+            <p>
+              <strong>Device Phonebook</strong>
+              Because Snapchat is all about communicating with friends, we may—with your permission—collect information from your device’s phonebook.
+              <strong>Camera and photos</strong>
+              Many of our services require us to collect images and other information from your device’s camera and photos.
+              For example, you won’t be able to send Snaps or upload photos from your camera roll unless we can access your camera or photos.
+              <strong>Location Information</strong>
+              When you use our services we may collect information about your location.
+              With your permission, we may also collect information about your precise location using methods that include:
+               <ul>
+                 <li>GPS,</li>
+                  <li>wireless networks,</li>
+                  <li>cell towers,</li>
+                  <li>Wi-Fi access points,</li>
+                  <li>and other sensors, such as gyroscopes, </li>
+                  <li>accelerometers, </li>
+                  <li>and compasses.</li>
+                </ul>
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="service_usage">
+        <div class="md-content">
+          <h3>Service Usage</h3>
+          <div>
+            <p>
+              We collect information about your activity through our services. <br>
+              For example, we may collect information about: how you interact with our services and how you communicate with other Snapchatters. <br>
+              We also collect log information when you use our website.
+              That information includes, among other things:
+              <ul>
+                <li>details about how you’ve used our services,</li>
+              <li>device information, </li>
+              <li>such as your web browser type and language,</li>
+              <li>access times, </li>
+              <li>pages viewed, </li>
+              <li>IP address, </li>
+              <li>identifiers associated with cookies or other technologies that may uniquely identify your device or browser and pages you visited before or after navigating to our website.</li>
+              </ul>
             </p>
             <button class="md-close fa fa-times-circle"></button>
           </div>
@@ -389,7 +437,53 @@
         </div>
       </div>
 
-      <div class="md-modal md-effect-1" id="service_usage">
+      <div class="md-modal md-effect-1" id="third_party_input">
+        <div class="md-content">
+          <h3>Third Party</h3>
+          <div>
+            <p>
+              Like most online services and mobile applications, we may use cookies and other technologies, such as web beacons, web storage, and unique advertising identifiers, to collect information about your activity, browser, and device.
+              <br>We may also use these technologies to collect information when you interact with services we offer through one of our partners, such as advertising and commerce features.
+              Most web browsers are set to accept cookies by default.
+              <br>If you prefer, you can usually remove or reject browser cookies through the settings on your browser or device.
+              Keep in mind, though, that removing or rejecting cookies could affect the availability and functionality of our services.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="financial_info">
+        <div class="md-content">
+          <h3>Financial Information</h3>
+          <div>
+            <p>
+              Our services, such as commerce products, may also require you to provide us with:
+              <ul>
+                <li> a debit or credit card number</li>
+                <li>and its associated account information.</li>
+              </lu>
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="feedback">
+        <div class="md-content">
+          <h3>Feedback</h3>
+          <div>
+            <p>
+              It probably goes without saying, but we’ll say it anyway:
+              When you contact customer support or communicate with us in any other way,
+              we’ll collect whatever information you volunteer.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="cookies">
         <div class="md-content">
           <h3>Cookies</h3>
           <div>
@@ -405,16 +499,322 @@
         </div>
       </div>
 
-      <div class="md-modal md-effect-1" id="user_content">
+      <div class="md-modal md-effect-1" id="product_improvement">
+        <div class="md-content">
+          <h3>Product Improvement</h3>
+          <div>
+            <p>
+              We use the information we’ve collected from cookies and other technologies to enhance our services and your experience with them.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="analytics">
+        <div class="md-content">
+          <h3>Analytics</h3>
+          <div>
+            <p>
+              We monitor and analyze trends and usage.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="service_personalization">
+        <div class="md-content">
+          <h3>Service Personalization</h3>
+          <div>
+            <p>
+              Using the data we collect, we personalize our services by, among other things, suggesting friends or profile information, or customizing the content we show you, including ads.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="ad_performance">
+        <div class="md-content">
+          <h3>Ad Performance</h3>
+          <div>
+            <p>
+              We provide and improve ad targeting and measurement,
+              including through the use of your precise location information (again, if you’ve given us permission to collect that information), both on and off our services.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="fraud_detection">
+        <div class="md-content">
+          <h3>Fraud Detection</h3>
+          <div>
+            <p>
+              We verify your identity and prevent fraud or other unauthorized or illegal activity, using the data we collect.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="security">
+        <div class="md-content">
+          <h3>Security</h3>
+          <div>
+            <p>
+              We use the data collected to enhance the safety and security of our products and services.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="communication">
+        <div class="md-content">
+          <h3>Communication</h3>
+          <div>
+            <p>
+              We use your data to send you communications, including by email.<br>
+              For example, we may use email to respond to support inquiries or to share information about our products, services, and promotional offers that we think may interest you.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="third_party_sharing">
+        <div class="md-content">
+          <h3>Third Party</h3>
+          <div>
+            <p>
+
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="affiliated_businness">
+        <div class="md-content">
+          <h3>Affiliated Businness</h3>
+          <div>
+            <p>
+              We may share information with entities within the Snap Inc. family of companies.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="content">
+        <div class="md-content">
+          <h3>Content</h3>
+          <div>
+            <p>
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="information">
+        <div class="md-content">
+          <h3>Information</h3>
+          <div>
+            <p>
+              We may also share with third parties—such as advertisers—aggregated, non-personally identifiable, or de-identified information.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="financial_information">
+        <div class="md-content">
+          <h3>Financial Information</h3>
+          <div>
+            <p>
+              TBD
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="opt_out">
+        <div class="md-content">
+          <h3>Opt-Out Options</h3>
+          <div>
+            <p>
+              It’s important to us that you stay in control over whom you communicate with.<br>
+              That’s why we’ve built a number of tools in Settings that let you indicate, among other things, who you want to see your Stories, whether you’d like to receive Snaps from just your friends or all Snapchatters, and whether you’d like to block another Snapchatter from contacting you again.<br>
+              If you let us use your information, you can always change your mind and simply revoke your permission by changing the settings on your device if your device offers those options.
+              Of course, if you do that, certain services may lose full functionality.<br>
+              We try to show you ads that we think will be relevant to your interests.
+              If you would like to modify the information we and our advertising partners use to select these ads, you can do so in the app.
+
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="data_deletion">
+        <div class="md-content">
+          <h3>Data Deletion</h3>
+          <div>
+            <p>
+              If you ever decide to stop using Snapchat, you can just ask us to delete your account.
+              We’ll also delete most of the information we’ve collected about you after you’ve been inactive for a while—but don’t worry, we’ll try to contact you first!
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="data_access">
+        <div class="md-content">
+          <h3>Data Access</h3>
+          <div>
+            <p>
+              <ul>
+              <li>You can access and edit most of your basic account information right in our apps. </li>
+              <li>You can also use Download My Data to obtain a copy of information that isn’t available in our apps in a portable format, so you can move it or store it wherever you want. </li>
+              <li>Because your privacy is important to us, we may ask you to verify your identity or provide additional information before we let you access or update your personal information. </li>
+              <li>We may also reject your request to access or update your personal information for a number of reasons, including, for example, that the request risks the privacy of other users or is unlawful.</li>
+            </lu>
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="cookies_ownership">
         <div class="md-content">
           <h3>Cookies</h3>
           <div>
             <p>
-              Like most online services and mobile applications, we may use cookies and other technologies, such as web beacons, web storage, and unique advertising identifiers, to collect information about your activity, browser, and device.
-              <br>We may also use these technologies to collect information when you interact with services we offer through one of our partners, such as advertising and commerce features.
-              Most web browsers are set to accept cookies by default.
-              <br>If you prefer, you can usually remove or reject browser cookies through the settings on your browser or device.
+              Most web browsers are set to accept cookies by default. If you prefer, you can usually remove or reject browser cookies through the settings on your browser or device.
               Keep in mind, though, that removing or rejecting cookies could affect the availability and functionality of our services.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="do_not_track">
+        <div class="md-content">
+          <h3>Do Not Track</h3>
+          <div>
+            <p>
+              We do not provide on our website a do not track option.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="data_transfer">
+        <div class="md-content">
+          <h3>Data Transfer</h3>
+          <div>
+            <p>
+              <strong>International transfers<strong><br>
+                We may collect your personal information from, transfer it to, and store and process it in the United States and other countries outside of where you live.
+                Whenever we share information of EU users outside the EU we make sure an adequate transfer mechanism is in place.
+                For internal transfers, we rely on Model Contractual Clauses or the EU-U.S. and Swiss-U.S. Privacy Shield.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="data_retention">
+        <div class="md-content">
+          <h3>Data Retention</h3>
+          <div>
+            <p>
+              TBD
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="data_selling">
+        <div class="md-content">
+          <h3>Data Selling</h3>
+          <div>
+            <p>
+              TBD
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="eu">
+        <div class="md-content">
+          <h3>EU Specifics</h3>
+          <div>
+            <p>
+              If you’re a user in the European Union, you should know that Snap Inc. is the controller of your personal information.
+              Here is some additional information we would like to bring to your attention:<br>
+              <strong>Bases for using your information</strong><br>
+              Your country only allows us to use your personal information when certain conditions apply. These conditions are called “legal bases” and, at Snap, we typically rely on one of four:
+              <strong>Contract<strong><br>
+                One reason we might use your information is because you’ve entered into an agreement with us.
+                For example, when you buy an On-Demand Geofilter and accepted our Custom Creative Tools Terms,
+                we need to use some of your information to collect payment and make sure we show your Geofilter to the right people at the right place and time.
+              <strong>Legitimate interest<strong><br>
+                 Another reason we might use your information is because we have—or a third party has—a legitimate interest in doing so.
+                 For example, we need to use your information to provide and improve our services, including protecting your account, delivering
+                 your Snaps, providing customer support, and helping you find friends and content we think you’ll like.
+                 Because most of our services are free, we also use some information about you to try and show you ads you’ll find interesting.
+                 An important point to understand about legitimate interest is that our interests don’t outweigh your right to privacy,
+                 so we only rely on legitimate interest when we think the way we are using your data doesn’t significantly impact your privacy or would be expected by you,
+                 or there is a compelling reason to do so. We explain our legitimate business reasons for using your information in more detail here.
+                 Consent. In some cases we’ll ask for consent to use your information for specific purposes.
+                If we do, we’ll make sure you can revoke your consent in our services or through your device permissions. Even if we’re not relying on consent to use your information, we may ask you for permission to access data like contacts and location.
+              <strong>Legal obligation<strong><br>
+                We may be required to use your personal information to comply with the law, like when we respond to valid legal process or need to take action to protect our users.
+                Since November 15, 2015, our policy has been to notify Snapchatters when we receive legal process seeking their account information, with some exceptions.
+              <strong>Your right to object<strong><br>
+                You have the right to object to our use of your information.
+                With many types of data, we’ve provided you with the ability to simply delete it if you don’t want us processing it anymore.
+                For other types of data, we’ve given you the ability to stop the use of your data by disabling the feature altogether.
+                You can do these things in the app.
+                If there are other types of information you don’t agree with us processing, you can contact us.
+                <strong>Complaints?</strong><br>
+                   If you’re based in the EU, you can always file a complaint with the supervisory authority in your Member State.
+                   For example, if you’re based in the UK you can file a complaint with the Information Commissioner’s Office.
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="children">
+        <div class="md-content">
+          <h3>Children</h3>
+          <div>
+            <p>
+              TBD
+            </p>
+            <button class="md-close fa fa-times-circle"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="history">
+        <div class="md-content">
+          <h3>Privacy Policy History</h3>
+          <div>
+            <p>
+              TBD
             </p>
             <button class="md-close fa fa-times-circle"></button>
           </div>
