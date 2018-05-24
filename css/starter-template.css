@@ -48,3 +48,9 @@ p {
 .rounded-circle {
   cursor: pointer;
 }
+
+#side_nav {
+  font-family: 'Slabo', serif;
+  background: #f9f8f9;
+  color: #8C9BAD;
+}
