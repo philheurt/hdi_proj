@@ -100,11 +100,16 @@ perspective effects (not including the modals and the overlay).
 
 .md-content > div ul {
 	margin: 0;
+	font-size: 1.15em;
 	padding: 0 0 30px 20px;
 }
 
 .md-content > div ul li {
 	padding: 5px 0;
+}
+
+.md-content > div p strong {
+font-weight: bold;
 }
 
 .md-content button {
