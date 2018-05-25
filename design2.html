@@ -44,7 +44,7 @@
       </div>
     </nav>
 
-    <main class="container">
+    <main class="container" id="body">
 
       <h1>Our Privacy Policy</h1>
       <h2>Last Modified: May 15, 2018</h2>
@@ -113,7 +113,7 @@
           </nav>
         </div>
 
-        <div class="col-md-9">
+        <div class="col-md-9 content">
           <p>
             As we state in our 3 Laws of Data Protection, we are committed to protecting the privacy of your data. This Privacy Policy explains more specifically what information Evernote Corporation and its Group Companies (together, “Evernote,” “we” or “us”) collect and receive from Account Holders and End Users (“you”) through Evernote’s websites and applications, which we refer to collectively as “the Service.” The Service includes the Evernote Software.
             <br>
@@ -389,6 +389,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+    <!-- Fixed Side Bar -->
+    <script scr="js/fixedSideBar.js"></script>
+    <script>
+
+
+    jQuery(document).ready(function($) {
+      $(document).scroll(function () {
+        var bar = $('#side_nav');
+        var sticky = bar.offset().top;
+        if ($(window).scrollTop() >= sticky) {
+          console.log($(window).scrollTop(), sticky)
+
+          bar.addClass('sticky');
+        }else {
+          console.log("else");
+        }
+        if ($(window).scrollTop() <= 100) {
+          console.log($(window).scrollTop(), sticky)
+
+          bar.removeClass('sticky');
+        }
+      });
+    });
+
+</script>
     <!-- Hover -->
     <script src="js/classie.js"></script>
 		<script src="js/modalEffects.js"></script>
