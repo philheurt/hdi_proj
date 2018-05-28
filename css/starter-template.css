@@ -104,7 +104,12 @@ float: left;
 
 #side_nav ul {
   margin-left: -30px;
-  font-size: 1em !important;
+  font-size: 1em;
+}
+
+
+.sub-categories {
+  font-size: 0.7em !important;
 }
 
 #side_nav .collapse {
